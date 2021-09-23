@@ -1,3 +1,9 @@
+class Passanger():
+    def __init__(self, origin, destinition):
+        self.origin = origin
+        self.dest = destinition
+    
+
 class Flight():
     def __init__(self, capacity):
         self.capacity = capacity
@@ -12,7 +18,8 @@ class Flight():
     def seats(self):
         return self.capacity - len(self.passangers)
 
-a = ['aslan','isa','roma','salah']
+
+a = ['aslan', 'isa', 'roma', 'salah']
 c = Flight(3)
 for i in a:
     succes = c.add_passanger(i)
