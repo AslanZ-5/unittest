@@ -2,7 +2,7 @@ class Passanger():
     def __init__(self, origin, destinition):
         self.origin = origin
         self.dest = destinition
-    
+
 
 class Flight():
     def __init__(self, capacity):
