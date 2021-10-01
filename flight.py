@@ -18,7 +18,7 @@ class Flight():
     def seats(self):
         return self.capacity - len(self.passangers)
 
-
+x = ['shamil','mansur','musa']
 a = ['aslan', 'isa', 'roma', 'salah']
 c = Flight(3)
 for i in a:
